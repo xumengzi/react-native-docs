@@ -8,4 +8,6 @@
   * [3.1. 路由](advancedGuide/navigator.md)
 * [4. IOS使用指南](guide-IOS/README.md)
 * [4. ANDROID使用指南](guide-ANDROID/README.md)
-* [5. 更新日志 log](log/README.md)
+* [5. 采坑之旅](hole/README.md)
+  * [5.1. echarts](hole/charts.md)
+* [6. 更新日志 log](log/README.md)

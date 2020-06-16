@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>2. 设计 · GitBook</title>
+        <title>5.1. echarts · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="../advancedGuide/" />
+    <link rel="next" href="../log/" />
     
     
-    <link rel="prev" href="../gettingStarted/environment.html" />
+    <link rel="prev" href="./" />
     
 
     </head>
@@ -134,9 +134,9 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="./">
+        <li class="chapter " data-level="1.3" data-path="../design/">
             
-                <a href="./">
+                <a href="../design/">
             
                     
                     2. 设计
@@ -205,9 +205,9 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7" data-path="../hole/">
+        <li class="chapter " data-level="1.7" data-path="./">
             
-                <a href="../hole/">
+                <a href="./">
             
                     
                     5. 采坑之旅
@@ -219,9 +219,9 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.7.1" data-path="../hole/charts.html">
+        <li class="chapter active" data-level="1.7.1" data-path="charts.html">
             
-                <a href="../hole/charts.html">
+                <a href="charts.html">
             
                     
                     5.1. echarts
@@ -280,7 +280,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >2. 设计</a>
+        <a href=".." >5.1. echarts</a>
     </h1>
 </div>
 
@@ -295,8 +295,52 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x8BBE;&#x8BA1;">&#x8BBE;&#x8BA1;</h1>
-<h3 id="&#x8FD9;&#x662F;react-native&#x7684;&#x8BBE;&#x8BA1;-&#x4E3B;&#x8981;&#x662F;&#x4E00;&#x4E9B;&#x6837;&#x5F0F;&#x7B49;">&#x8FD9;&#x662F;react-native&#x7684;&#x8BBE;&#x8BA1;, &#x4E3B;&#x8981;&#x662F;&#x4E00;&#x4E9B;&#x6837;&#x5F0F;&#x7B49;</h3>
+                                <h1 id="&#x4F7F;&#x7528;echarts&#x7684;&#x4E00;&#x4E9B;&#x5751;">&#x4F7F;&#x7528;<code>echarts</code>&#x7684;&#x4E00;&#x4E9B;&#x5751;</h1>
+<h3 id="&#x5F53;&#x524D;&#x7248;&#x672C;">&#x5F53;&#x524D;&#x7248;&#x672C;</h3>
+<pre><code>react:16.11.0
+react-native:0.62.2
+</code></pre><h4 id="&#x522B;&#x4EBA;&#x63A2;&#x7D22;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;-&#x53EF;&#x80FD;&#x6BCF;&#x4E2A;&#x4EBA;&#x4E0D;&#x4E00;&#x6837;-&#x4EC5;&#x4F9B;&#x53C2;&#x8003;-&#x6700;&#x597D;&#x6BCF;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x5C31;run&#x4E00;&#x4E0B;-&#x770B;&#x662F;&#x54EA;&#x91CC;&#x7684;&#x9519;&#x8BEF;-&#x7136;&#x540E;&#x6709;&#x9488;&#x5BF9;&#x6027;&#x7684;&#x4E0B;&#x836F;">&#x522B;&#x4EBA;&#x63A2;&#x7D22;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;, &#x53EF;&#x80FD;&#x6BCF;&#x4E2A;&#x4EBA;&#x4E0D;&#x4E00;&#x6837;, &#x4EC5;&#x4F9B;&#x53C2;&#x8003;, &#x6700;&#x597D;&#x6BCF;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x5C31;<code>run</code>&#x4E00;&#x4E0B;, &#x770B;&#x662F;&#x54EA;&#x91CC;&#x7684;&#x9519;&#x8BEF;, &#x7136;&#x540E;&#x6709;&#x9488;&#x5BF9;&#x6027;&#x7684;&#x4E0B;&#x836F;</h4>
+<h2 id="&#x6309;&#x7167;&#x5E38;&#x7406;&#x5B89;&#x88C5;echarts-&#x63A5;&#x7740;&#x53D1;&#x73B0;&#x62A5;&#x9519;">&#x6309;&#x7167;&#x5E38;&#x7406;&#x5B89;&#x88C5;<code>echarts</code>, &#x63A5;&#x7740;&#x53D1;&#x73B0;&#x62A5;&#x9519;</h2>
+<pre><code>Invariant Violation: WebView has been removed from React Native. It can now be installed and imported from &apos;react-native-webview&apos; instead of &apos;react-native&apos;. See &apos;https://github.com/react-native-community/react-native-webview&apos;.
+</code></pre><p>&#x5927;&#x81F4;&#x610F;&#x601D;&#x5C31;&#x662F;<code>WebView</code>&#x4E0D;&#x5728;&#x4ECE;<code>react-native</code>&#x91CC;&#x9762;<code>import</code>&#x4E86;, &#x6539;&#x4ECE;<code>react-native-webview</code>, &#x8FD9;&#x4E0D;&#x662F;&#x5751;&#x7239;&#x5417;?</p>
+<blockquote>
+<p><code>echarts</code>&#x7684;<code>rn</code>&#x7248;&#x672C;&#x66F4;&#x65B0;&#x4E5F;&#x662F;&#x4E00;&#x5E74;&#x524D;, &#x8981;&#x4E48;&#x6362;&#x8981;&#x4E48;&#x6539;&#x4E00;&#x4E0B;&#x6E90;&#x7801;, &#x6216;&#x8005;&#x7B49;&#x5B83;&#x66F4;&#x65B0;</p>
+</blockquote>
+<pre><code>if(&#x6362;&#x56FE;&#x8868; || &#x7B49;&#x66F4;&#x65B0;){
+  &#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x5F80;&#x4E0B;&#x770B;&#x4E86;
+}else{
+  &#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x770B;
+}
+</code></pre><blockquote>
+<p>&#x4EE5;&#x4E0B;&#x65B9;&#x6848;&#x5747;<code>google</code>&#x800C;&#x6765;</p>
+</blockquote>
+<ul>
+<li>. &#x627E;&#x5230;<code>native-echarts</code>&#x7684;&#x76EE;&#x5F55;<code>\node_modules\native-echarts\src\index.js</code>, &#x540C;&#x6837;<code>\node_modules\native-echarts\src\components\Echarts\index.js</code></li>
+</ul>
+<p><strong>&#x5F53;&#x7136;&#x8FD8;&#x5F97;&#x5728;<code>native-echarts</code>&#x6267;&#x884C;&#x4E00;&#x4E0B;&#x5B89;&#x88C5;&#x547D;&#x4EE4;<code>npm install react-native-webview</code></strong></p>
+<pre><code>&#x539F;&#x5148;&#x662F;&#x8FD9;&#x6837;import&#x7684;
+import { WebView } from &apos;react-native&apos;;
+&#x6362;&#x4E00;&#x4E0B;
+import { WebView } from &apos;react-native-webview&apos;;
+</code></pre><ul>
+<li><p>. &#x6253;&#x5F00;<code>Android studio</code>,&#x627E;&#x5230;<code>file</code>-<code>settings</code>-<code>sdk tool</code>-&#x52FE;&#x9009;&#x4E0A;<code>29.0.3</code>-&#x70B9;&#x51FB;<code>apply</code>, &#x56DE;&#x5230;&#x9879;&#x76EE;&#x91CC;<code>\android\build.gradle</code>, &#x4FEE;&#x6539;</p>
+<pre><code>ext {
+buildToolsVersion = &quot;29.0.3&quot;
+compileSdkVersion = 29
+}
+</code></pre></li>
+<li><p>. &#x56DE;&#x5230;<code>\node_modules\native-echarts\src\components\Echarts\index.js</code>,&#x6539;&#x4E00;&#x4E0B;<code>webview</code>&#x91CC;&#x9762;&#x7684;&#x5199;&#x6CD5;</p>
+</li>
+</ul>
+<p><strong>&#x8BB0;&#x4F4F;&#x8981;&#x628A;&#x8FD9;&#x4E2A;tpl&#x6587;&#x4EF6;&#x590D;&#x5236;&#x4E00;&#x4EFD;&#x5230;<code>\android\app\src\main\assets</code>, &#x5982;&#x679C;&#x6CA1;&#x6709;&#x76EE;&#x5F55;, &#x90A3;&#x5C31;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;</strong></p>
+<pre><code>&#x539F;&#x5148;&#x662F;&#x8FD9;&#x6837;&#x5199;&#x7684;
+source={require(&apos;./tpl.html&apos;)}
+&#x6539;&#x4E3A;
+source={Platform.OS === &apos;ios&apos; ? require(&apos;./tpl.html&apos;) : { uri: &quot;file:///android_asset/tpl.html&quot; }}
+</code></pre><ul>
+<li>. &#x91CD;&#x65B0;<code>run</code>, &#x622A;&#x56FE;&#x5982;&#x4E0B;:</li>
+</ul>
+<p><img src="../imgs/echarts.png" alt="echarts&#x56FE;&#x8868;"></p>
 
                                 
                                 </section>
@@ -324,12 +368,12 @@
 
             
                 
-                <a href="../gettingStarted/environment.html" class="navigation navigation-prev " aria-label="Previous page: 1.1. 安装">
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 5. 采坑之旅">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="../advancedGuide/" class="navigation navigation-next " aria-label="Next page: 3. 进阶用法">
+                <a href="../log/" class="navigation navigation-next " aria-label="Next page: 6. 更新日志 log">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -340,7 +384,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2. 设计","level":"1.3","depth":1,"next":{"title":"3. 进阶用法","level":"1.4","depth":1,"path":"advancedGuide/README.md","ref":"advancedGuide/README.md","articles":[{"title":"3.1. 路由","level":"1.4.1","depth":2,"path":"advancedGuide/navigator.md","ref":"advancedGuide/navigator.md","articles":[]}]},"previous":{"title":"1.1. 安装","level":"1.2.1","depth":2,"path":"gettingStarted/environment.md","ref":"gettingStarted/environment.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"design/README.md","mtime":"2020-06-11T01:43:59.647Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-16T10:48:47.500Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5.1. echarts","level":"1.7.1","depth":2,"next":{"title":"6. 更新日志 log","level":"1.8","depth":1,"path":"log/README.md","ref":"log/README.md","articles":[]},"previous":{"title":"5. 采坑之旅","level":"1.7","depth":1,"path":"hole/README.md","ref":"hole/README.md","articles":[{"title":"5.1. echarts","level":"1.7.1","depth":2,"path":"hole/charts.md","ref":"hole/charts.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"hole/charts.md","mtime":"2020-06-16T03:25:02.319Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-16T10:48:47.500Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
