@@ -8,7 +8,7 @@ react-native:0.62.2
 
 #### 别人探索的解决方案, 可能每个人不一样, 仅供参考, 最好每执行一次就`run`一下, 看是哪里的错误, 然后有针对性的下药
 
-## 按照常理安装`echarts`, 接着发现报错
+## 按照常理安装`echarts`, 接着发现报错(原因就是没有跟着rn更新)
 ```
 Invariant Violation: WebView has been removed from React Native. It can now be installed and imported from 'react-native-webview' instead of 'react-native'. See 'https://github.com/react-native-community/react-native-webview'.
 ```

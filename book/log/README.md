@@ -1,5 +1,9 @@
 # 更新日志
 
+###v0.1.2  <span style="font-size: 16px;">2020/06/11</span>
+##### init:
+1. 增加框架对比相关文档 [对比其他](../compare/README.md)
+
 ###v0.1.1  <span style="font-size: 16px;">2020/05/31</span>
 ##### init:
 1. 增加echarts相关文档 [echarts 文档](../hole/charts.md)
