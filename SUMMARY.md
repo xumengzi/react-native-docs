@@ -10,6 +10,7 @@
 * [4. ANDROID使用指南](guide-ANDROID/README.md)
 * [5. 采坑之旅](hole/README.md)
   * [5.1. echarts](hole/charts.md)
+  * [5.2. 更新 update](hole/update.md)
 * [6. 对比其他](compare/README.md)
   * [6.1. react native](compare/reactnative.md)
 * [7. 更新日志 log](log/README.md)

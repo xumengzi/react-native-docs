@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>5.1. echarts · GitBook</title>
+        <title>5.2. 更新 update · GitBook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="update.html" />
+    <link rel="next" href="../compare/" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="charts.html" />
     
 
     </head>
@@ -219,7 +219,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.7.1" data-path="charts.html">
+        <li class="chapter " data-level="1.7.1" data-path="charts.html">
             
                 <a href="charts.html">
             
@@ -232,7 +232,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.7.2" data-path="update.html">
+        <li class="chapter active" data-level="1.7.2" data-path="update.html">
             
                 <a href="update.html">
             
@@ -325,7 +325,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >5.1. echarts</a>
+        <a href=".." >5.2. 更新 update</a>
     </h1>
 </div>
 
@@ -340,52 +340,48 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x4F7F;&#x7528;echarts&#x7684;&#x4E00;&#x4E9B;&#x5751;">&#x4F7F;&#x7528;<code>echarts</code>&#x7684;&#x4E00;&#x4E9B;&#x5751;</h1>
-<h3 id="&#x5F53;&#x524D;&#x7248;&#x672C;">&#x5F53;&#x524D;&#x7248;&#x672C;</h3>
-<pre><code>react:16.11.0
-react-native:0.62.2
-</code></pre><h4 id="&#x522B;&#x4EBA;&#x63A2;&#x7D22;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;-&#x53EF;&#x80FD;&#x6BCF;&#x4E2A;&#x4EBA;&#x4E0D;&#x4E00;&#x6837;-&#x4EC5;&#x4F9B;&#x53C2;&#x8003;-&#x6700;&#x597D;&#x6BCF;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x5C31;run&#x4E00;&#x4E0B;-&#x770B;&#x662F;&#x54EA;&#x91CC;&#x7684;&#x9519;&#x8BEF;-&#x7136;&#x540E;&#x6709;&#x9488;&#x5BF9;&#x6027;&#x7684;&#x4E0B;&#x836F;">&#x522B;&#x4EBA;&#x63A2;&#x7D22;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;, &#x53EF;&#x80FD;&#x6BCF;&#x4E2A;&#x4EBA;&#x4E0D;&#x4E00;&#x6837;, &#x4EC5;&#x4F9B;&#x53C2;&#x8003;, &#x6700;&#x597D;&#x6BCF;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x5C31;<code>run</code>&#x4E00;&#x4E0B;, &#x770B;&#x662F;&#x54EA;&#x91CC;&#x7684;&#x9519;&#x8BEF;, &#x7136;&#x540E;&#x6709;&#x9488;&#x5BF9;&#x6027;&#x7684;&#x4E0B;&#x836F;</h4>
-<h2 id="&#x6309;&#x7167;&#x5E38;&#x7406;&#x5B89;&#x88C5;echarts-&#x63A5;&#x7740;&#x53D1;&#x73B0;&#x62A5;&#x9519;&#x539F;&#x56E0;&#x5C31;&#x662F;&#x6CA1;&#x6709;&#x8DDF;&#x7740;rn&#x66F4;&#x65B0;">&#x6309;&#x7167;&#x5E38;&#x7406;&#x5B89;&#x88C5;<code>echarts</code>, &#x63A5;&#x7740;&#x53D1;&#x73B0;&#x62A5;&#x9519;(&#x539F;&#x56E0;&#x5C31;&#x662F;&#x6CA1;&#x6709;&#x8DDF;&#x7740;rn&#x66F4;&#x65B0;)</h2>
-<pre><code>Invariant Violation: WebView has been removed from React Native. It can now be installed and imported from &apos;react-native-webview&apos; instead of &apos;react-native&apos;. See &apos;https://github.com/react-native-community/react-native-webview&apos;.
-</code></pre><p>&#x5927;&#x81F4;&#x610F;&#x601D;&#x5C31;&#x662F;<code>WebView</code>&#x4E0D;&#x5728;&#x4ECE;<code>react-native</code>&#x91CC;&#x9762;<code>import</code>&#x4E86;, &#x6539;&#x4ECE;<code>react-native-webview</code>, &#x8FD9;&#x4E0D;&#x662F;&#x5751;&#x7239;&#x5417;?</p>
-<blockquote>
-<p><code>echarts</code>&#x7684;<code>rn</code>&#x7248;&#x672C;&#x66F4;&#x65B0;&#x4E5F;&#x662F;&#x4E00;&#x5E74;&#x524D;, &#x8981;&#x4E48;&#x6362;&#x8981;&#x4E48;&#x6539;&#x4E00;&#x4E0B;&#x6E90;&#x7801;, &#x6216;&#x8005;&#x7B49;&#x5B83;&#x66F4;&#x65B0;</p>
-</blockquote>
-<pre><code>if(&#x6362;&#x56FE;&#x8868; || &#x7B49;&#x66F4;&#x65B0;){
-  &#x53EF;&#x4EE5;&#x4E0D;&#x7528;&#x5F80;&#x4E0B;&#x770B;&#x4E86;
-}else{
-  &#x7EE7;&#x7EED;&#x5F80;&#x4E0B;&#x770B;
-}
-</code></pre><blockquote>
-<p>&#x4EE5;&#x4E0B;&#x65B9;&#x6848;&#x5747;<code>google</code>&#x800C;&#x6765;</p>
-</blockquote>
+                                <h1 id="app-&#x66F4;&#x65B0;&#x7684;&#x4E00;&#x4E9B;&#x8C03;&#x7814;"><code>app</code> &#x66F4;&#x65B0;&#x7684;&#x4E00;&#x4E9B;&#x8C03;&#x7814;</h1>
+<h4 id="app-&#x7684;&#x4E00;&#x6574;&#x5957;&#x6D41;&#x7A0B;&#x79BB;&#x4E0D;&#x5F00;&#x66F4;&#x65B0;-&#x8FD9;&#x91CC;&#x6211;&#x5217;&#x4E86;&#x4E00;&#x4E9B;&#x65B9;&#x6848;-&#x4EC5;&#x4F9B;&#x53C2;&#x8003;"><code>APP</code> &#x7684;&#x4E00;&#x6574;&#x5957;&#x6D41;&#x7A0B;&#x79BB;&#x4E0D;&#x5F00;&#x66F4;&#x65B0;, &#x8FD9;&#x91CC;&#x6211;&#x5217;&#x4E86;&#x4E00;&#x4E9B;&#x65B9;&#x6848;, &#x4EC5;&#x4F9B;&#x53C2;&#x8003;</h4>
+<h4 id="&#x70ED;&#x66F4;&#x65B0;">&#x70ED;&#x66F4;&#x65B0;</h4>
+<ol>
+<li><p><code>rn</code>&#x4E2D;&#x6587;&#x7F51;&#x7684; <a href="https://pushy.reactnative.cn/" target="_blank">react-native-pushy</a></p>
 <ul>
-<li>. &#x627E;&#x5230;<code>native-echarts</code>&#x7684;&#x76EE;&#x5F55;<code>\node_modules\native-echarts\src\index.js</code>, &#x540C;&#x6837;<code>\node_modules\native-echarts\src\components\Echarts\index.js</code></li>
-</ul>
-<p><strong>&#x5F53;&#x7136;&#x8FD8;&#x5F97;&#x5728;<code>native-echarts</code>&#x6267;&#x884C;&#x4E00;&#x4E0B;&#x5B89;&#x88C5;&#x547D;&#x4EE4;<code>npm install react-native-webview</code></strong></p>
-<pre><code>&#x539F;&#x5148;&#x662F;&#x8FD9;&#x6837;import&#x7684;
-import { WebView } from &apos;react-native&apos;;
-&#x6362;&#x4E00;&#x4E0B;
-import { WebView } from &apos;react-native-webview&apos;;
-</code></pre><ul>
-<li><p>. &#x6253;&#x5F00;<code>Android studio</code>,&#x627E;&#x5230;<code>file</code>-<code>settings</code>-<code>sdk tool</code>-&#x52FE;&#x9009;&#x4E0A;<code>29.0.3</code>-&#x70B9;&#x51FB;<code>apply</code>, &#x56DE;&#x5230;&#x9879;&#x76EE;&#x91CC;<code>\android\build.gradle</code>, &#x4FEE;&#x6539;</p>
-<pre><code>ext {
-buildToolsVersion = &quot;29.0.3&quot;
-compileSdkVersion = 29
-}
-</code></pre></li>
-<li><p>. &#x56DE;&#x5230;<code>\node_modules\native-echarts\src\components\Echarts\index.js</code>,&#x6539;&#x4E00;&#x4E0B;<code>webview</code>&#x91CC;&#x9762;&#x7684;&#x5199;&#x6CD5;</p>
+<li><p>&#x6536;&#x8D39;, &#x514D;&#x8D39;&#x7684;&#x9650;&#x5236;&#x5728;<code>30M</code>&#x4EE5;&#x5185;(<code>APP</code>&#x5927;&#x5C0F;), &#x70ED;&#x66F4;&#x65B0;&#x8865;&#x4E01;&#x7684;&#x5927;&#x5C0F;&#x4E3A;<code>3M</code></p>
+</li>
+<li><p>&#x66F4;&#x65B0;&#x539F;&#x7406;: &#x628A;&#x5305;&#x4E0A;&#x4F20;&#x5230;<code>pushy</code>&#x670D;&#x52A1;&#x5668;, &#x6BCF;&#x6B21;&#x66F4;&#x65B0;&#x7684;&#x65F6;&#x5019;&#x6BD4;&#x5BF9;&#x5F53;&#x524D;&#x7248;&#x672C;&#x548C;&#x670D;&#x52A1;&#x5668;&#x7248;&#x672C;.</p>
 </li>
 </ul>
-<p><strong>&#x8BB0;&#x4F4F;&#x8981;&#x628A;&#x8FD9;&#x4E2A;tpl&#x6587;&#x4EF6;&#x590D;&#x5236;&#x4E00;&#x4EFD;&#x5230;<code>\android\app\src\main\assets</code>, &#x5982;&#x679C;&#x6CA1;&#x6709;&#x76EE;&#x5F55;, &#x90A3;&#x5C31;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;</strong></p>
-<pre><code>&#x539F;&#x5148;&#x662F;&#x8FD9;&#x6837;&#x5199;&#x7684;
-source={require(&apos;./tpl.html&apos;)}
-&#x6539;&#x4E3A;
-source={Platform.OS === &apos;ios&apos; ? require(&apos;./tpl.html&apos;) : { uri: &quot;file:///android_asset/tpl.html&quot; }}
-</code></pre><ul>
-<li>. &#x91CD;&#x65B0;<code>run</code>, &#x622A;&#x56FE;&#x5982;&#x4E0B;:</li>
+</li>
+</ol>
+<p>&#x7F3A;&#x70B9;: &#x53EA;&#x80FD;&#x66F4;&#x65B0;<code>js</code>, &#x56FE;&#x7247;&#x7B49;&#x4EE3;&#x7801;, &#x5982;&#x679C;&#x6709;&#x548C;&#x539F;&#x751F;&#x76F8;&#x5173;&#x7684;&#x5C31;&#x4E0D;&#x80FD;&#x66F4;&#x65B0;&#x4E86;</p>
+<ol>
+<li><p>&#x5FAE;&#x8F6F;&#x7684;&#x70ED;&#x66F4;&#x65B0; <a href="https://github.com/Microsoft/react-native-code-push" target="_blank">react-native-code-push</a></p>
+<ul>
+<li>&#x5B89;&#x88C5;, &#x6CE8;&#x518C;, &#x4FEE;&#x6539;&#x5B89;&#x5353;&#x76F8;&#x5173;&#x6587;&#x4EF6;, &#x5BFC;&#x5165;&#x7EC4;&#x4EF6;&#x7B49;&#x7B49;</li>
 </ul>
-<p><img src="../imgs/echarts.png" alt="echarts&#x56FE;&#x8868;"></p>
+</li>
+</ol>
+<p>&#x7F3A;&#x70B9;: &#x670D;&#x52A1;&#x5668;&#x5728;&#x56FD;&#x5916;, &#x56FD;&#x5185;&#x7528;&#x6237;&#x8BBF;&#x95EE;&#x901F;&#x5EA6;&#x6709;&#x70B9;&#x6162;, &#x751A;&#x81F3;&#x8BBF;&#x95EE;&#x4E0D;&#x5230;</p>
+<h3 id="&#x5E02;&#x573A;&#x66F4;&#x65B0;">&#x5E02;&#x573A;&#x66F4;&#x65B0;</h3>
+<p>&#x5BF9;&#x6BD4;&#x7248;&#x672C;, &#x8BA9;&#x7528;&#x6237;&#x53BB;&#x5E02;&#x573A;&#x66F4;&#x65B0;, &#x601D;&#x8DEF;: &#x70B9;&#x51FB;&#x66F4;&#x65B0;&#x7684;&#x65F6;&#x5019;&#x76F4;&#x63A5;&#x8DF3;&#x8F6C;&#x5230;&#x5BF9;&#x5E94;&#x7684;&#x5E02;&#x573A;<code>APP</code>&#x7684;&#x5730;&#x65B9;.</p>
+<blockquote>
+<p>&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;, &#x57FA;&#x672C;&#x4E0A;&#x6BCF;&#x4E2A;&#x624B;&#x673A;&#x54C1;&#x724C;&#x90FD;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x5546;&#x5E97;, &#x4E8B;&#x5B9E;&#x4E0A;&#x76F4;&#x63A5;&#x8DF3;&#x8F6C;&#x5230;&#x5404;&#x4E2A;&#x5546;&#x5E97;&#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x9EBB;&#x70E6;&#x7684;, &#x66F4;&#x591A;&#x7684;&#x662F;&#x7ED9;&#x51FA;&#x4E00;&#x4E2A;&#x4E0B;&#x8F7D;&#x94FE;&#x63A5;, &#x8DF3;&#x8F6C;&#x5230;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x8F7D;</p>
+<p>&#x800C;<code>ios</code>&#x5C31;&#x975E;&#x5E38;&#x53CB;&#x597D;, &#x53EA;&#x6709;&#x4E00;&#x4E2A;<code>APP store</code>, &#x539F;&#x751F;&#x63D0;&#x4F9B;&#x4E00;&#x4E0B;&#x65B9;&#x6CD5;&#x5373;&#x53EF;</p>
+</blockquote>
+<p>&#x9700;&#x8981;&#x670D;&#x52A1;&#x7AEF;, &#x539F;&#x751F;, &#x524D;&#x7AEF;&#x540C;&#x6B65;&#x5408;&#x4F5C;&#x5F00;&#x53D1;</p>
+<h3 id="&#x81EA;&#x4E3B;&#x66F4;&#x65B0;">&#x81EA;&#x4E3B;&#x66F4;&#x65B0;</h3>
+<p>&#x9700;&#x8981;&#x81EA;&#x5DF1;&#x521B;&#x5EFA;<code>APP</code>&#x66F4;&#x65B0;&#x670D;&#x52A1;.</p>
+<ol>
+<li><code>App</code>&#x7248;&#x672C;&#x68C0;&#x6D4B;&#xFF1A;&#x5206;&#x4E3A;&#x81EA;&#x52A8;&#x68C0;&#x6D4B;&#x548C;&#x624B;&#x52A8;&#x68C0;&#x6D4B;&#x3002;&#x81EA;&#x52A8;&#x68C0;&#x6D4B;&#x662F;&#x5728;&#x9996;&#x9875;&#x52A0;&#x8F7D;&#x4E4B;&#x540E;&#x8FDB;&#x884C;&#x68C0;&#x6D4B;&#xFF0C;&#x63D0;&#x793A;&#x7528;&#x6237;&#x9700;&#x8981;&#x66F4;&#x65B0;&#x7248;&#x672C;&#xFF1B;&#x624B;&#x52A8;&#x68C0;&#x6D4B;&#x662F;&#x5728;App&#x8BBE;&#x7F6E;&#x4E2D;&#x63D0;&#x4F9B;&#x5165;&#x53E3;&#xFF0C;&#x4EE5;&#x4F9B;&#x7528;&#x6237;&#x81EA;&#x5DF1;&#x68C0;&#x6D4B;App&#x662F;&#x5426;&#x4E3A;&#x6700;&#x65B0;&#x7248;&#x672C;&#x3002;&#x9700;&#x8981;&#x5C06;App&#x7684;&#x7248;&#x672C;&#x53F7;&#x548C;&#x670D;&#x52A1;&#x5668;&#x4E0A;Apk&#x7684;&#x7248;&#x672C;&#x53F7;&#x4F5C;&#x6BD4;&#x8F83;&#x3002;</li>
+<li><code>Apk</code>&#x4E0B;&#x8F7D;&#xFF1A;&#x4ECE;Apk&#x6587;&#x4EF6;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x4E0B;&#x8F7D;&#x6700;&#x65B0;&#x7248;&#x672C;Apk&#xFF0C;&#x9700;&#x8981;&#x5C55;&#x793A;&#x4E0B;&#x8F7D;&#x8FDB;&#x5EA6;&#xFF0C;&#x4E0B;&#x8F7D;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x63D0;&#x793A;&#x7528;&#x6237;&#x5B89;&#x88C5;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x7528;&#x6237;&#x70B9;&#x51FB;&#x4E0B;&#x8F7D;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x68C0;&#x6D4B;&#x9ED8;&#x8BA4;&#x8DEF;&#x5F84;&#x4E0B;&#x6709;&#x6CA1;&#x6709;&#x6700;&#x65B0;Apk&#xFF0C;&#x6CA1;&#x6709;&#x518D;&#x8FDB;&#x884C;&#x4E0B;&#x8F7D;&#xFF0C;&#x5426;&#x5219;&#x76F4;&#x63A5;&#x63D0;&#x793A;&#x5B89;&#x88C5;&#x3002;&#x8FD9;&#x6837;&#x53EF;&#x4EE5;&#x9632;&#x6B62;&#x6076;&#x610F;&#x4E0B;&#x8F7D;&#x3002;</li>
+<li>&#x4E0B;&#x8F7D;&#x5B8C;&#x6210;&#x540E;&#x4F1A;&#x63D0;&#x793A;&#x662F;&#x5426;&#x5B89;&#x88C5;&#xFF0C;&#x70B9;&#x51FB;&#x5B89;&#x88C5;&#x5373;&#x53EF;&#x3002;</li>
+</ol>
+<p>&#x9700;&#x8981;&#x670D;&#x52A1;&#x7AEF;, &#x539F;&#x751F;, &#x524D;&#x7AEF;&#x540C;&#x6B65;&#x5408;&#x4F5C;&#x5F00;&#x53D1;</p>
+<p>&#x7EFC;&#x4E0A;&#x6240;&#x8FF0;, &#x8981;&#x5B9E;&#x73B0;&#x66F4;&#x65B0;, </p>
+<ol>
+<li>&#x5FEB;&#x901F;&#x4E0A;&#x7EBF;&#x91C7;&#x7528;&#x70B9;&#x51FB;&#x66F4;&#x65B0;, &#x76F4;&#x63A5;&#x8DF3;&#x8F6C;APP&#x4E0B;&#x8F7D;&#x9875;&#x9762;&#x5373;&#x53EF;</li>
+<li>&#x957F;&#x8FDC;&#x6765;&#x770B;, &#x91C7;&#x7528;APP&#x5E94;&#x7528;&#x5E02;&#x573A;&#x66F4;&#x65B0;&#x4F1A;&#x66F4;&#x597D;</li>
+</ol>
 
                                 
                                 </section>
@@ -413,12 +409,12 @@ source={Platform.OS === &apos;ios&apos; ? require(&apos;./tpl.html&apos;) : { ur
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 5. 采坑之旅">
+                <a href="charts.html" class="navigation navigation-prev " aria-label="Previous page: 5.1. echarts">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="update.html" class="navigation navigation-next " aria-label="Next page: 5.2. 更新 update">
+                <a href="../compare/" class="navigation navigation-next " aria-label="Next page: 6. 对比其他">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -429,7 +425,7 @@ source={Platform.OS === &apos;ios&apos; ? require(&apos;./tpl.html&apos;) : { ur
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"5.1. echarts","level":"1.7.1","depth":2,"next":{"title":"5.2. 更新 update","level":"1.7.2","depth":2,"path":"hole/update.md","ref":"hole/update.md","articles":[]},"previous":{"title":"5. 采坑之旅","level":"1.7","depth":1,"path":"hole/README.md","ref":"hole/README.md","articles":[{"title":"5.1. echarts","level":"1.7.1","depth":2,"path":"hole/charts.md","ref":"hole/charts.md","articles":[]},{"title":"5.2. 更新 update","level":"1.7.2","depth":2,"path":"hole/update.md","ref":"hole/update.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"hole/charts.md","mtime":"2020-06-23T07:30:18.174Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-04T08:56:42.328Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"5.2. 更新 update","level":"1.7.2","depth":2,"next":{"title":"6. 对比其他","level":"1.8","depth":1,"path":"compare/README.md","ref":"compare/README.md","articles":[{"title":"6.1. react native","level":"1.8.1","depth":2,"path":"compare/reactnative.md","ref":"compare/reactnative.md","articles":[]}]},"previous":{"title":"5.1. echarts","level":"1.7.1","depth":2,"path":"hole/charts.md","ref":"hole/charts.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"hole/update.md","mtime":"2020-08-04T08:55:08.659Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-08-04T08:56:42.328Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
